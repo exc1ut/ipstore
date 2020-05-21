@@ -1,0 +1,52 @@
+@import 'style';
+
+.cart main{
+
+    margin-top: 100px;
+    &>div{
+        width: 1200px;
+        max-width: 100%;;
+    }
+    h4{
+        color: #98B5BF;
+        margin-bottom: 20px;
+        font-family: Arial;
+        font-weight: bold;
+    }
+
+    button{
+        @include button($sitecolor2, 100px);
+        margin-top: 50px;
+        min-width: 250px;
+        height: 45px;
+        box-shadow: 0 10px 30px rgba(255,126,126,.5);
+    }
+
+    .product{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        h5{
+            color: #87A9B3;
+            font-family: Arial;
+            font-weight: bold;
+            
+        }
+        button{
+            @include button($sitecolor2, 5px);
+            margin-top: 0;
+            min-width: 100px;
+        }
+        a{
+            @include button($sitecolor, 5px);
+            margin-top: 0;
+            min-width: 150px;
+            margin-right: 20px;
+            box-shadow: 0 10px 30px rgba(95, 169, 255, 0.5);
+        }
+    }
+
+
+
+
+}
+

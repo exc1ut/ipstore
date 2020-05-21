@@ -1,0 +1,64 @@
+@import "style";
+
+body.login{
+
+    background-image: url("/images/backgrounds/loginBackground.png");
+    background-size: 100% 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
+
+    .header{
+        position: relative;
+        z-index: 2;
+        li{
+            list-style: none;
+            margin-left: 20px;
+            a{
+                @include link(white);
+            }
+        }
+    }
+
+    .inner{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        left: 0;
+        color: white;
+
+
+
+        h6{
+            font-family: inter-bold;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        h4{
+            font-family: inter-bold;
+
+        }
+        input{
+            @include input(500px, 45px);
+            box-shadow: 0 8px 15px rgba(145,145,145,0.5);
+            margin-top: 40px;
+            padding-left: 30px;
+            font-size: 15px;
+        }
+
+
+        button{
+            @include button($sitecolor2, 5px);
+            min-width: 180px;
+        }
+        a{
+            @include button(rgba(255,255,255,.42), 5px);
+            min-width: 150px;
+        }
+    }
+
+
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="/images/logo/logo.png" type="image/png">
+    <link rel="stylesheet" href="dependencies/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="dependencies/fontawesome/css/all.min.css">
+</head>
+
+<body class="cart">
+
+    <header>
+        <div class="container">
+            <nav class="d-flex justify-content-between align-items-center">
+                <img src="images/logo/header_logo.png">
+                <ul>
+                    <li><a href="">Orders</a></li>
+                    <li><a href="">My Account</a></li>
+                </ul>
+            </nav>
+
+            <nav class="d-flex align-items-center mt-3">
+                <div class="d-flex flex-grow-1 justify-content-center">
+                    <div class="search">
+                        <form action="">
+                            <input type="text" name="search" placeholder="Search products">
+                            <button>Search</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="cart_btn">
+                    <a href="">MY CART</a><label>12</label>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="d-flex justify-content-center pb-5">
+<!-- Carts-->
+        <div>
+            <h4>My Cart</h4>
+            <hr>
+
+            <div class="product d-flex">
+                <img src="images/Temp/1.jpg" alt="">
+                <div class="details pl-5">
+                    <h5 class="mb-4">Headphones</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis veritatis at laboriosam maxime sequi nam sit iusto rem quae quod, beatae quaerat, non enim consectetur omnis culpa iste sint nostrum provident iure? Necessitatibus, fuga culpa perferendis iure alias rem ipsum laudantium vitae eius non, illum maxime tenetur autem animi ratione.</p>
+                    <div class="product_footer d-flex align-items-center mt-5">
+                        <label class="mr-auto"> Price: $240</label>
+                        <a href="payment.html">Buy</a>
+                        <button class="remove" data-id="14"><i class="fas fa-trash"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            
+            <div class="product d-flex">
+                <img src="images/Temp/1.jpg" alt="">
+                <div class="details pl-5">
+                    <h5 class="mb-4">Headphones</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis veritatis at laboriosam maxime sequi nam sit iusto rem quae quod, beatae quaerat, non enim consectetur omnis culpa iste sint nostrum provident iure? Necessitatibus, fuga culpa perferendis iure alias rem ipsum laudantium vitae eius non, illum maxime tenetur autem animi ratione.</p>
+                    <div class="product_footer d-flex align-items-center mt-5">
+                        <label class="mr-auto"> Price: $240</label>
+                        <a href="payment.html">Buy</a>
+                        <button class="remove" data-id="14"><i class="fas fa-trash"></i></button>
+                    </div>
+                </div>
+            </div>
+
+
+            <label class="mr-4 text-secondary"> Total - $250 </label><button>Buy All</button>
+
+
+
+
+
+
+        </div>
+
+
+
+    </main>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="dependencies/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/addproduct.js"></script>
+
+</html>
